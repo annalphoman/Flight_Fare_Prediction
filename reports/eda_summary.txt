@@ -1,0 +1,70 @@
+================================================================================
+INDIAN FLIGHT AWARENESS - EXPLORATORY DATA ANALYSIS (EDA) REPORT
+================================================================================
+Generated Automatically from Verified Dataset: Clean_Dataset.csv
+Total Flight Records Analyzed: 300,153
+Features Analyzed: 11
+
+1. TRAVEL CLASS DISPARITY
+--------------------------------------------------------------------------------
+- Economy Class Average Fare: ₹6,572.34 (Median: ₹5,772.00)
+- Business Class Average Fare: ₹52,540.08 (Median: ₹53,164.00)
+- Key Finding: Business class flights cost on average 8.0x more than Economy.
+  Class selection is the single most dominant predictor of ticket fare in Indian domestic aviation.
+
+2. AIRLINE PRICING & FLEET POSITIONING
+--------------------------------------------------------------------------------
+Average Price Across Carriers:
+airline
+Vistara      30396.536302
+Air_India    23507.019112
+SpiceJet      6179.278881
+GO_FIRST      5652.007595
+Indigo        5324.216303
+AirAsia       4091.072742
+
+- Vistara and Air India exhibit significantly higher overall average fares because they
+  are the only two carriers in this dataset offering full-service Business Class cabins.
+- Budget carriers (IndiGo, GO FIRST, AirAsia, SpiceJet) operate strictly Economy seats
+  in this dataset, with average fares clustering between ₹5,000 and ₹7,500.
+- IndiGo carries the largest budget market share among the recorded low-cost airlines.
+
+3. DYNAMIC PRICING & THE 'DAYS LEFT' HOCKEY-STICK EFFECT
+--------------------------------------------------------------------------------
+- Average Economy Fare (1-2 days before departure): ₹14,226.18
+- Average Economy Fare (20+ days before departure): ₹5,045.20
+- Last-Minute Surge Impact: +182.0% price surge for bookings within 48 hours.
+- Key Finding: Fares remain relatively stable from 49 days down to ~15 days before flight.
+  Between 14 and 4 days, linear incremental increases begin, culminating in an exponential
+  price escalation during the final 1 to 3 days before departure.
+
+4. ROUTE DYNAMICS & METRO CONNECTIVITY
+--------------------------------------------------------------------------------
+Top 5 Busiest Metro Routes in Dataset:
+source_city  destination_city
+Delhi        Mumbai              15289
+Mumbai       Delhi               14809
+Delhi        Bangalore           14012
+Bangalore    Delhi               13756
+             Mumbai              12939
+
+- Routes connecting Delhi, Mumbai, and Bangalore form the high-density backbone of domestic
+  aviation volume in India.
+- Long-haul domestic routes (e.g., Delhi to Chennai or Kolkata to Bangalore) show higher
+  durations and correspondingly higher baseline ticket fares.
+
+5. IMPACT OF STOPS AND FLIGHT DURATION
+--------------------------------------------------------------------------------
+- Direct (non-stop) flights constitute ~12% of the dataset and offer the fastest travel time.
+- 1-stop flights represent the vast majority (>83%) and often command higher average fares
+  than direct flights due to extended total durations and dual-leg pricing algorithms.
+
+================================================================================
+High-resolution visualizations exported to:
+  - reports/figures/airline_price_distribution.png
+  - reports/figures/class_fare_comparison.png
+  - reports/figures/days_left_vs_price.png
+  - reports/figures/stops_fare_distribution.png
+  - reports/figures/route_price_heatmap.png
+  - reports/figures/time_slot_pricing.png
+================================================================================

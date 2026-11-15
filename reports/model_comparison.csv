@@ -1,0 +1,5 @@
+model,r2_score,rmse,mae,mape_percent,training_time_sec
+Random Forest Regressor,0.9762,3499.43,1789.73,12.12,4.99
+HistGradientBoostingRegressor,0.9701,3922.78,2289.85,17.06,2.97
+Linear Regression,0.9152,6613.09,4463.8,45.92,0.8
+Ridge Regression,0.9152,6613.09,4463.79,45.92,0.43

@@ -1,0 +1,78 @@
+feature,importance
+class_Business,0.46270867326205195
+class_Economy,0.43692148376053697
+duration,0.049459547591897746
+days_left,0.012184804179458353
+airline_Vistara,0.005341184448954796
+airline_Air_India,0.004865537969152508
+is_peak_arrival,0.0017006889921962489
+destination_city_Mumbai,0.0016079160927739758
+destination_city_Kolkata,0.0014194567298718185
+destination_city_Delhi,0.0013300890483853777
+source_city_Kolkata,0.0012333484425051122
+route_Mumbai_to_Bangalore,0.0011918838685663635
+source_city_Delhi,0.0011728610647040848
+route_Kolkata_to_Delhi,0.0010111863364598492
+source_city_Hyderabad,0.0009216071690580349
+stops_two_or_more,0.0008622646637087655
+stops_one,0.000782777590671944
+route_Bangalore_to_Mumbai,0.0007541597581919075
+arrival_time_Evening,0.0007161757733095399
+route_Mumbai_to_Chennai,0.000650821579783255
+days_left_bucket_Critical (1-3d),0.0006390965407469588
+route_Mumbai_to_Hyderabad,0.0006381402887958309
+route_Hyderabad_to_Mumbai,0.0006113342024239791
+route_Chennai_to_Mumbai,0.0005975508110933729
+arrival_time_Night,0.0005925769884071214
+route_Delhi_to_Mumbai,0.0005404691904739274
+departure_time_Evening,0.0005394974858159785
+is_peak_departure,0.0004937306975598621
+airline_AirAsia,0.0004396038480067
+destination_city_Hyderabad,0.0004110628834123353
+route_Delhi_to_Kolkata,0.00040474869108426704
+arrival_time_Afternoon,0.0003953938240587731
+departure_time_Night,0.000372986246986691
+route_Chennai_to_Delhi,0.00035271975380009237
+departure_time_Afternoon,0.00033934318485861613
+source_city_Mumbai,0.0003154839328086498
+departure_time_Morning,0.00031377334973247827
+airline_Indigo,0.00030993751754855527
+arrival_time_Early_Morning,0.00030482108747640187
+arrival_time_Morning,0.00028170021818167213
+route_Bangalore_to_Hyderabad,0.00026457836077900873
+departure_time_Early_Morning,0.0002645536424510937
+route_Mumbai_to_Kolkata,0.00024835087732571093
+days_left_bucket_Urgent (4-10d),0.0002359686233025824
+route_Mumbai_to_Delhi,0.0002233162774271314
+route_Kolkata_to_Chennai,0.00020377077754876093
+source_city_Chennai,0.00019683988146452475
+source_city_Bangalore,0.00019177492017424393
+destination_city_Bangalore,0.00018420614386073546
+route_Kolkata_to_Mumbai,0.00016977368907243387
+route_Hyderabad_to_Bangalore,0.00015614783326639328
+destination_city_Chennai,0.00013685554698823107
+route_Chennai_to_Hyderabad,0.00012995635203618541
+route_Chennai_to_Kolkata,0.00012694414946107428
+duration_category_Medium (3-6h),0.00011993698756058101
+route_Delhi_to_Hyderabad,0.00011344373642106781
+route_Delhi_to_Bangalore,0.00011150117320399215
+route_Hyderabad_to_Kolkata,9.63212818536488e-05
+duration_category_Long (>6h),9.431388889924974e-05
+route_Hyderabad_to_Delhi,8.605344420688002e-05
+route_Bangalore_to_Chennai,8.54264739961301e-05
+route_Delhi_to_Chennai,8.341739469963748e-05
+route_Kolkata_to_Hyderabad,7.919625309705967e-05
+arrival_time_Late_Night,7.520168332173123e-05
+route_Bangalore_to_Kolkata,7.15389323388966e-05
+route_Kolkata_to_Bangalore,7.022596981324803e-05
+days_left_bucket_Moderate (11-25d),6.674791393752053e-05
+route_Bangalore_to_Delhi,6.603580434078251e-05
+is_same_day_urgency,6.577743188137416e-05
+route_Chennai_to_Bangalore,6.286301014654606e-05
+route_Hyderabad_to_Chennai,5.6991637232811186e-05
+departure_time_Late_Night,3.6042365240231334e-05
+airline_GO_FIRST,3.394708697962669e-05
+airline_SpiceJet,2.525784638894855e-05
+stops_zero,1.9678682655032834e-05
+days_left_bucket_Early (26+d),1.4946073549057582e-05
+duration_category_Short (<3h),1.6587875671223234e-06
